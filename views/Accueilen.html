@@ -1,0 +1,192 @@
+<html>
+<head>
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" href="/Acceuil.css">
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		   function pop() {
+		   	
+		 
+            function call()
+           {
+               popup = window.open("notation.html", "Exo1", "width = 450,height=200,scrollbars");        
+           }
+           
+               setTimeout(call, 6000);
+               
+    		}
+	</script>
+<style type="text/css">
+		body {
+    margin: 0;
+    height: 100vh;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+	</style>
+
+</head>
+<body onload="javascript:pop();">
+	<div class="cursor"></div>
+	<script type="text/javascript">
+		        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+	</script>
+	<div class="header">
+		<div class="nav">
+		    <a href="Accueilen.html"><img  src="/logo.png" class="logo"></a>
+		    <ul>
+		    	<a href="Accueilen.html"><li>HOME</li></a>
+			    <a href="mesphotosen.html"><li>MY PICTURES</li></a>
+			    <a href="moncluben.html"><li>MY CLUB</li></a>
+			</ul>
+	    </div>
+    </div>
+	<div>
+			<div  class="image">
+			      <div class="texte-milieu" >
+			      	<p>Welcome This Is The Site Of <br><div class="Ayman">Ayman AKANSOUS</div>
+			      	</p>
+			      </div>
+			</div>
+	</div>
+	<div class="section2">		
+			<div class="gray"></div>
+			<div class="mouse "></div>
+    
+	
+		<div>
+			<p class="etat">My marital status</p>
+			<img class="civil" src="/etat civil.png" width="120px" height="120px" >
+		</div>
+		<div >
+			<img class="name" src="/nom_prenom.png" width="80px" height="80px">
+			<p class="Nom" style="margin-left: -30px;">Last name and first name:</p>
+			<p class="AKANSOUS">AKANSOUS Ayman</p>
+		</div>
+		<div>
+			<img class="birth" src="/date.jpg" width="80px" height="80px">
+			<p class="date" style="margin-left: 20px;">Date of Birth:</p>
+			<p class="naissance">18/06/2001</p>
+		</div>
+		<div>
+			<img class="cni" src="/cni.png" width="80px" height="80px">
+			<p class="identite">NIC:</p>
+			<p class="BJ" style="margin-left: 10px;">BJ471297</p>
+		</div>
+		<div>
+			<img class="ville" src="/ville.jpg" width="80px" height="80px">
+			<p class="ville_naissance" style="margin-left: 20px;">City Of Birth:</p>
+			<p class="casa">CASABLANCA</p>
+		</div>
+		<div>
+			<img class="statut" src="/etat.png" width="80px" height="80px">
+			<p class="civil2">Civil status:</p>
+			<p class="celib" style="margin-left: 20px;">Single</p>
+		</div>
+		
+	</div>
+	<div class="section3">
+		<div class="presentation"><p>My name is Ayman AKANSOUS, I am 19 years old, I was born on Jul 18, 2001 and I am single. I am from CASABLANCA but I studied in DAKAR. I have always had a passion for all things programming and computers, so once I got my BAC I hung up with a mention T. Well in high school <a style="color: red;" href="http://www.lyceeanisse.org/accueil/" target="_blank">"Anisse International School"</a>, I decided to go to an engineering school,<a style="color: red;" href="http://www.esp.sn/" target="_blank">"l’Ecole Supérieure Polytechnique De DAKAR"</a> in which I took a computer science course. I was lucky enough to be able to carry out Projects in the school and I would like to move on to the engineering cycle of my school.</p></div>
+		<div class="pdp"><img width=380px height=350px src="/pdp.jpg"></div>
+		
+	</div>
+	<div class="footer-a">
+		<div ><a href="https://www.ucad.sn/" target="_blank"><img class="ucad" src="/UCAD.png"></a></div>
+		<div ><a style="text-decoration: none; color: black" href="http://www.esp.sn/" target="_blank"><img class="esp" src="/esp.jpg">
+			<p class="ecole">Ecole Supérieure Polytechnique <br> De DAKAR</p></a>
+		</div>
+		<div class="footer">
+			<div class="border"></div>
+			<p class="projet">Projet encadré par:</p>
+			<p class="ibrahima">Professeur. Elh Bassirou TOURE</p>
+			<p class="adresse">Amitié 2 Villa N° 4187,DAKAR-Sénégal</p>
+			<p class="numero">+221766710398</p>
+			<p class="mail">ayman.aks937@gmail.com</p>
+		</div>
+		<div class="footer-final">
+			<p class="sociaux">WE ARE ACTIVE ON SOCIAL MEDIA. JOIN US NOW!
+			</p>
+			<img class="localisation" src="/ville.jpg" width="25px" height="25px">
+			<img class="phone" src="/phone.jpg" width="25px" height="25px">
+			<img class="mail-image" src="/mail.jpg" width="25px" height="25px">
+			<a href="https://web.facebook.com/ayman.akansous" target="_blank" title="Suivez-nous sur facebook"><img class="fb" src="/facebook.png" width="30px" height="30px"></a>
+			<a href="https://www.instagram.com/ayman_aks/" target="_blank" title="suivez-nous sur instagram"><img class="instagram" src="/instagram.png" width="30px" height="30px"></a>
+		</div>
+		
+	</div>
+
+
+
+</body>
+</html>

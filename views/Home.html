@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/Home.css">
+
+    
+<style type="text/css">
+		body {
+    margin: 0;
+    height: 100vh;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+	</style>
+
+</head>
+<body>
+	<div class="cursor"></div>
+	<script type="text/javascript">
+		        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+	</script>
+	<div class="Bienvenue">
+		<a href="/Acceuil.html" target="_blank" ><span class="fr" title="vous avez choisis le francais">Bienvenue</span></a>
+		<a href="/Accueilen.html" target="_blank"><span class="en" title="you have chosen english">Welcome</span></a>
+		<a href="/Accueiles.html" target="_blank"><span class="es" title="tu elegiste espanol">Bienvenidos</span></a>
+	</div>
+       
+</body>
+</html>

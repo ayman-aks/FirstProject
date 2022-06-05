@@ -1,0 +1,281 @@
+<html>
+<head>
+	<title>mon club</title>
+	<link rel="stylesheet" type="text/css" href="/monclub.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function cmpt() {
+            
+        
+var n = 21; 
+var cpt = 0;
+var duree = 3;
+var delta = Math.ceil((duree * 1000) / n);
+var node =  document.getElementById("botola"); 
+ 
+function countdown() {
+  node.innerHTML = ++cpt;
+  if( cpt < n ) 
+  {
+     setTimeout(countdown, delta);
+  }
+}
+var n1 = 3; 
+var cpt1 = 0;
+var duree1 = 8;
+var delta1 = Math.ceil((duree1 * 1000) / n);
+var node1 =  document.getElementById("CAF"); 
+ 
+function countdown1() {
+  node1.innerHTML = ++cpt1;
+  if( cpt1 < n1 ) 
+  {
+     setTimeout(countdown1, delta1);
+  }
+}
+var n2 = 9; 
+var cpt2 = 0;
+var duree2 = 7;
+var delta2 = Math.ceil((duree2 * 1000) / n);
+var node2 =  document.getElementById("trone"); 
+ 
+function countdown2() {
+  node2.innerHTML = ++cpt2;
+  if( cpt2 < n2 ) 
+  {
+     setTimeout(countdown2, delta2);
+  }
+}
+var n3 = 1; 
+var cpt3 = 0;
+var duree3 = 8;
+var delta3 = Math.ceil((duree3 * 1000) / n);
+var node3 =  document.getElementById("super"); 
+ 
+function countdown3() {
+  node3.innerHTML = ++cpt3;
+  if( cpt3 < n3 ) 
+  {
+     setTimeout(countdown3, delta3);
+  }
+}
+
+setTimeout(countdown3, delta3);
+
+setTimeout(countdown2, delta2);
+
+setTimeout(countdown1, delta1);
+ 
+setTimeout(countdown, delta);
+
+}
+
+    </script>
+
+<style type="text/css">
+        body {
+    margin: 0;
+    height: 100vh;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+    </style>
+
+</head>
+<body>
+    <div class="cursor"></div>
+    <script type="text/javascript">
+                const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+    </script>
+	<div class="header">
+        <div class="nav">
+            <a href="Acceuil.html"><img  src="/logo.png" class="logo"></a>
+            <ul>
+                <a href="Acceuil.html"><li>ACCEUIL</li></a>
+                <a href="mesphotos.html"><li>MES PHOTOS</li></a>
+                <a href="monclub.html"><li>MON CLUB</li></a>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <div class="section1">
+    	<div><img class="logo-wac" src="/logo-wac.png" width="100px;"></div>
+    	<div class="Champions"><p>Champions Du Maroc</p></div>
+    	<div class="page-une-central"><img src="/page-une-central.png"></div>
+    	
+    </div>
+    <div class="section2">
+    <ul class="sociaux-wac">
+    	<a href="https://web.facebook.com/WACofficiel?_rdc=1&_rdr" target="_blank"><li><img src="/facebook.png" width="30px" height="30px"></li></a>
+    	<a href="https://twitter.com/WACofficiel" target="_blank"><li><img src="/twitter.png" width="30px" height="30px"></li></a>
+    	<a href="https://www.youtube.com/user/WACofficiel/" target="_blank"><li><img src="/youtube.png" width="30px" height="30px"></li></a>
+    	<a href="https://www.instagram.com/wacofficiel/?hl=fr" target="_blank"><li><img src="/ig.png" width="30px" height="30px"></li></a>    	    	
+    </ul>
+
+    </div>
+    <div class="section3">
+    	<div><img src="/wac-history.jpg" class="wac-history"></div>
+    	<div class="histoire"><p>HISTOIRE</p></div>
+    	<div class="wydad_en_1940"><img src="/Wydad_en_1940.jpg"></div>
+    	<div><p class="titre-wydad_en_1940">Le Wydad en 1940</p>
+    		   <p class="texte-wydad_en_1940">Équipe du Wydad lors de sa première saison avant la finale de la coupe de la guerre dans le stade Philipp</p>
+    	</div>>
+    	<div class="paragraphe-wydad_en_1940">
+    		<h1 class="resistance">Résistance nationale</h1>
+    		<h2>La lutte nationale à l'origine de la Création du Wydad Athletic Club</h2>
+    		<p class="origine">L'origine de la création du Wydad Athletic Club, se trouve dans la résistance à l'oppression du protectorat. Ainsi, bien avant l'indépendance, le port de Casablanca était entouré d'un grand nombre de piscines, et pour pouvoir avoir accès à ces piscines, il fallait appartenir à un club, clubs qui étaient crées et gérés par des européens. A partir de 1935/1936, un certain nombre de marocains juifs et musulmans purent adhérer à ces clubs et ainsi profiter des piscines de la ville. Mais rapidement le nombre de marocains devint trop important ce qui provoqua une certaine forme de crainte de la part des européens qui renvoyèrent les 'indigènes" des clubs. C'est ainsi qu'est venue l'idée de la création d'un club par des marocains, de telle sorte à permettre aux juifs et aux musulmans de se baigner dans les piscines du port. Ainsi vint l'idée de créer le club du Wydad avec pour objectif avoué de participer aux compétitions de Water Polo...</p>
+    	</div>>
+    	<div class="paragraphe-Le_Wydad_en_1942">
+    		<h1 class="Club">Club 100% Marocain</h1>
+    		<h2 class="difficulte">La difficulté de créer un club 100% Marocain du temps du protectorat</h2>
+    		<p class="Tout">Tout ne fut pas très facile, car après avoir demandé plusieurs fois l'autorisation aux autorités françaises pour la création du club, demandes qui furent chaque fois sans réponse, les Wydadis de la première heure (Haj Mohamed Benjelloun et le docteur haj Abdellatif Benjelloun Touimi), contactèrent l'association franco-marocaine pour tenter le régler le problème de l'enregistrement du club. C'est ainsi que le résident général Nogues intervint personnellement pour autoriser la création du Wydad, ceci sous certaines conditions très contraignantes: l'éloignement de la religion (pas de religion dans le sport), l'éloignement de la politique, pas de racisme (envers les français), partage des 12 sièges du comité entre marocains et français à part égales. C'est ainsi que le 8 Mai 1937 pour la première fois au Maroc, fut crée un club par des marocains.</p>
+    	</div>
+    	<div><img class="Equipe_du_Wydad_1942" src="/Equipe_du_Wydad_1942.jpg" width="286px" width="140px"></div>
+    	<div><p class="Le_Wydad_en_1942">Le Wydad en 1942</p>
+    		   <p class="Debout">Debout droite à gauche: Abdelkader Benjelloun, Farrouj, Khali Bouchaib, Salem 1, Ould Aicha, Salem 2, Abdelkader Azba. Assis droite à gauche: Lokhmiri, Kadmiri, Kabbour, Mhimdate, Mohamed Naoui, Adiba</p>
+    	</div>
+        <div class="pere-jego"><img src="/pere-jego.jpg" width="286px" height="259px"></div>
+    	<div class="paragraphe-pere-jego">
+    		<h1 class="Premiers">Les Premiers Dirigeants Wydadis</h1>
+    		<p class="membres">Les membres du premier comité directeur du Wydad étaient: Haj Mohamed Benjelloun (président), Maitre Mohamed Zarouk, Mohamed Ben Lahsan, Haj Mohamed Ben Mohamed Ben Lahsan Benjelloun, Ralph Botbol, Charles Benchetrit, Docteur Bienvenu, Lucien Bilikrinieu, Pierre André, Boravel, Croné Vivirel, Mohamed Masson Il faut noter enfin le grand apport du docteur haj Abdellatif Benjelloun Touimi, qui devait s'occuper de la rédaction des statuts du club, ce dernier eut l'idée de créer des statuts généraux et non pas spécifiques à la natation, de telle manière à pouvoir créer d'autres sections pour le club, c'est ainsi qu'est apparut le basket ball en 1938 et le football en 1939, section qui fut crée par l'inoubliable Haj Tounsi alias Père Jégo.</p>
+    	</div>
+    	    	<div class="paragraphe-Le_Wydad_en_1942">
+    		<h1 class="Club">Le choix du nom Wydad</h1>
+    		<p class="Tout">Plusieurs versions circulent selon l'origine du nom du club casablancais Wydad. Wydad en arabe signifiant Amour, chaque historien apporte son explication. Mais celle rapporté par Ahmed Lahrizi dans son livre sur le Wydad tome 1, est la plus répandue et la plus plausible. Ainsi selon ce dernier, lors des fréquentes réunions qui intervenaient avant la création du club, un des membres fondateurs arriva en retard, la raison était qu'il regardait le dernier film de l'actrice et chanteuse égyptienne Oum Kaltoum, dont le titre est: "Wydad". C'est ainsi que vint l'idée aux fondateurs de donner comme nom au club, le nom du film...</p>
+    	</div>
+    	<div><img class="film-wydad-oumkaltoum" src="/film-wydad-oumkaltoum.jpg" width="286px" width="140px"></div>
+
+    </div>
+    <div class="section4" onclick="javascript:cmpt();">
+		<div class="palmares"><p>PALMARÈS</p><p style="margin: -20px 0 0 20px; cursor: pointer;">clique ici</p></div>
+    	<div class="observateurs"><p>Les observateurs sportifs, les fans du Wydad en premier lieu, pensent que leur club favori possède un palmarès que nul n’est encore arrivé à égaler. Jugez-en par vous-mêmes ! Tant sur le plan national que sur celui international, le prestigieux club bidaoui a tout raflé (ou presque !) 44 titres en tout pour ce club de légende ! Qui dit mieux ?</p></div>
+    	<div>
+    		<ul class="liste-coupe">
+    			<li ><img src="/champions-league.png" width="207px" height="207px"><br><span class="a2" id="CAF">0</span><br><span class="CAF" >CAF Ligue des Champions</span></li>
+    			<li ><img src="/botola-trophee.png" width="207px" height="207px" ><br><span class="a20"  id="botola" >0</span><br><span class="botola">Championnat national</span></li>
+    			<li ><img src="/coupe-trone.png" width="207px" height="207px"><br><span class="a9" id="trone">0</span> <br><span class="trone" >Coupe du Trône</span></li>
+    			<li ><img src="/super-coupe.png" width="207px" height="207px"><br><span class="a1" id="super">0</span> <br><span class="super">CAF Super Coupe</span></li>
+                    
+
+    		</ul>
+    	</div>
+    	<div class="autre-coupe">
+			<p>
+			CAF Coupe des Vainqueurs : Année 2002<br>
+			Coupe Afro-asiatique : Année 1993<br>
+			Coupe d'Arabe : Année 1989<br>
+			Supercoupe Arabe : Année 1990<br>
+			Coupe Mohammed V : Année (1979) (le seul club marocain à avoir remporté ce trophée)<br>
+			Coupe de l'Indépendance: 1956 (organisée un jour après l'indépendance du Maroc, remportée ensuite par le Wydad Athletic Club)<br>
+			Championnat d'Afrique du Nord : Années 1948, 1949 et 1950<br>
+			Coupe d'Afrique du Nord : Année 1948<br>
+			Coupe GIL (Super Coupe du Maroc): Années 1940 et 1949		
+			</p>
+		</div>
+
+    </div>
+    <div class="section5">
+    	<div><img class="logo-wac-footer-2019" src="/logo-wac-footer-2019.png"></div>
+    	<div class="Porter"><p>Porter le maillot du Wydad est un Honneur,</p></div>
+    	<div><p class="mouiller">le mouiller est un Devoir</p></div>
+    </div>
+   <div class="footer-a">
+        <div ><a href="https://www.ucad.sn/" target="_blank"><img class="ucad" src="/UCAD.png"></a></div>
+        <div ><a style="text-decoration: none; color: black" href="http://www.esp.sn/" target="_blank"><img class="esp" src="/esp.jpg">
+            <p class="ecole">Ecole Supérieure Polytechnique <br> De DAKAR</p></a>
+        </div>
+        <div class="footer">
+            <div class="border"></div>
+            <p class="projet">Projet encadré par:</p>
+            <p class="ibrahima">P. Elh Bassirou TOURE</p>
+            <p class="adresse">Amitié 2 Villa N° 4187,DAKAR-Sénégal</p>
+            <p class="numero">+221766710398</p>
+            <p class="mail">ayman.aks937@gmail.com</p>
+        </div>
+        <div class="footer-final">
+            <p class="sociaux">NOUS SOMMES ACTIFS SUR LES RÉSEAUX SOCIAUX. REJOIGNEZ-NOUS DÈS MAINTENANT !
+            </p>
+            <img class="localisation" src="/ville.jpg" width="25px" height="25px">
+            <img class="phone" src="/phone.jpg" width="25px" height="25px">
+            <img class="mail-image" src="/mail.jpg" width="25px" height="25px">
+            <a href="https://web.facebook.com/ayman.akansous" target="_blank" title="Suivez-nous sur facebook"><img class="fb" src="/facebook.png" width="30px" height="30px"></a>
+            <a href="https://www.instagram.com/ayman_aks/" target="_blank" title="suivez-nous sur instagram"><img class="instagram" src="/instagram.png" width="30px" height="30px"></a>
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>

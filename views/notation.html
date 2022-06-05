@@ -1,0 +1,86 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html">
+<meta charset="UTF-8">
+
+<head>
+	
+<script>
+<!-- 
+StarOutUrl=		'StarOut.gif';		//image par d�faut
+StarOverUrl=	'StarOver.gif';		//image d'une �toile s�lectionn�e
+StarBaseId=		'Star';				//id de base des �toiles
+NbStar=			5;					//nombre d'�toiles
+
+LgtStarBaseId=StarBaseId.lastIndexOf('');
+
+function NotationSystem() {
+	for (i=1;i<NbStar+1;i++) {
+		var img			=document.getElementById('Star'+i);
+			
+		img.onclick		=function() {alert('Vous avez donné la note de '+Name2Nb(this.id)+'. Merci beaucoup');};
+		//R�action lors du clic sur une �toile
+		//Evidemment, il faudrait compl�ter cette fonction pour la rendre vraiment utile.
+		//Par exemple, envoyer la note dans une base de donn�e via un XMLHttpRequest.
+		
+		img.alt			='Donner la note de '+i;
+		//Texte au survol
+		
+		img.src			=StarOutUrl;
+		img.onmouseover	=function() {StarOver(this.id);};
+		img.onmouseout	=function() {StarOut(this.id);};
+	}
+}
+
+function StarOver(Star) {
+	StarNb=Name2Nb(Star);
+	for (i=1;i<(StarNb*1)+1;i++) {
+		document.getElementById('Star'+i).src=StarOverUrl;
+	}
+}
+
+function StarOut(Star) {
+	StarNb=Name2Nb(Star);
+	for (i=1;i<(StarNb*1)+1;i++) {
+		document.getElementById('Star'+i).src=StarOutUrl;
+	}
+}
+
+function Name2Nb(Star) {
+	//Le survol d'une �toile ne nous permet pas de conna�tre directement son num�ro
+	//Cette fonction extrait donc ce num�ro � partir de l'Id
+	StarNb=Star.slice(LgtStarBaseId);
+	return(StarNb);
+} 
+-->
+</script>
+</head>
+
+<body onload="NotationSystem();" onclick="javascript:pop();">
+	<script type="text/javascript">
+		  
+		   	
+		 
+            function call()
+           {
+               popup = window.close();        
+           }
+           
+               setTimeout(call, 30000);
+               
+    		
+	</script>
+<!-- 
+Vous pouvez mettre un nombre quelconque d'�toiles, veillez juste � mettre � jour la variable NbStar. 
+Par d�faut, les �toiles sont "�teintes" : si un utilisateur a d�sectiv� JS il ne pourra pas voter mais le script ne plantera pas
+-->
+<div onclick="javascript:call();">
+<p>Notez nous</p>
+<img id="Star1" src="/StarOut.gif" /><img id="Star2" src="/StarOut.gif" />
+<img id="Star3" src="/StarOut.gif" /><img id="Star4" src="/StarOut.gif" />
+<img id="Star5" src="/StarOut.gif" />
+<input type="submit" value="close" style="position: relative;top: 50px;left: -180px;" onclick="javascript:call();">
+
+</div>
+</body>
+
+</html>
