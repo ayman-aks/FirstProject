@@ -1,0 +1,407 @@
+body
+{
+	margin: 0px ;
+	overflow-x: hidden;
+}
+a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+.nav
+{
+	background-color: #202020;
+	display: flex;
+	position: fixed;
+	width: 100%;	
+}
+.logo
+{
+	position: relative;
+	left: 60px;
+}
+ul
+{
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	top: 35px;
+	left: 350px;
+}
+li
+{
+	margin-left: 40px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+.image
+{
+	background-image: url('/Acceuil.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 670px;    
+}
+.texte-milieu
+{
+	position: static;
+	padding-top: 150px;
+	padding-left: 440px;
+	font-size: 3em;
+	color: #FFFFFF;
+	font-weight: bold;
+
+}
+.Ayman
+{
+	font-style: italic;
+	padding-left: 60px;
+}
+.gray
+{
+	background-color: #F2F2F2;
+    height: 50px;
+    width: 45px;
+    position: absolute;
+    top: 635px;
+    left: 640px;
+    border-radius: 22px 22px 0 0;
+
+}
+.mouse
+{
+	background-image: url('/mouse.png');
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 45px;
+	margin:  0 0 0 650px;
+	position: relative;
+	top: -20px;
+		
+}
+
+.etat
+{
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-left: 600px;
+	color: #FF8989;
+}
+.etat:hover
+{
+	text-decoration: underline;
+}
+.civil
+{
+	margin-left: 600px;
+}
+.civil:hover
+{
+	transform: scale(1.3);
+}
+.section2
+{
+    background-color: F2F2F2;
+    padding-bottom: 100px;
+
+}
+.name
+{
+	border: 4px #FFF700 inset;
+	padding: 50px 50px 100px 50px;
+	margin-top: 50px;
+	margin-left: 70px;
+
+}
+.name:hover
+{
+	border: 4px #FF0000 inset;
+    transform: rotate(-15deg);	
+	
+}
+.Nom
+{
+	position: absolute;
+	top: 1100px;
+	left: 110px;
+	text-decoration: underline;
+}
+.AKANSOUS
+{
+	position: static;
+	margin-top: -45px;
+	margin-left: 80px;
+	font-size: 20px;
+	color: #F5CD29;
+}
+.birth
+{
+	border: 4px #FFF700 inset;
+	position: static;
+	padding: 50px 50px 100px 50px;
+	margin-top: -238px;
+	margin-left: 330px;
+}
+.birth:hover
+{
+	border: 4px #29F5EB inset;
+    transform: rotate(-15deg);	
+}
+.date
+{
+	position: absolute;
+	top: 1100px;
+	left: 360px;
+	text-decoration: underline;
+
+}
+.naissance
+{
+	position: absolute;
+	top: 1130px;
+	left: 380px;
+	font-size: 20px;
+	color: #F5CD29;
+	
+}
+.cni
+{
+	border: 4px #FFF700 inset;
+	position: static;
+	padding: 50px 50px 100px 50px;
+	margin-top: -238px;
+	margin-left: 590px;
+}
+.cni:hover
+ {
+ 	border: 4px #67F529 inset;
+    transform: rotate(-15deg);
+ }
+.identite
+{
+	position: absolute;
+	top: 1100px;
+	left: 660px;
+	text-decoration: underline;
+}
+.BJ
+{
+	position: absolute;
+	top: 1130px;
+	left: 630px;
+	font-size: 20px;
+	color: #F5CD29;
+}
+.ville
+{
+	border: 4px #FFF700 inset;
+	position: static;
+	padding: 50px 50px 100px 50px;
+	margin-top: -238px;
+	margin-left: 850px;
+}
+.ville:hover
+{
+	border: 4px #F529D0 inset;
+    transform: rotate(-15deg);
+}
+.ville_naissance
+{
+	position: absolute;
+	top: 1100px;
+	left: 880px;
+	text-decoration: underline;
+}
+.casa
+{
+	position: absolute;
+	top: 1130px;
+	left: 880px;
+	font-size: 20px;
+	color: #F5CD29;	
+}
+.statut
+{
+    border: 4px #FFF700 inset;
+	position: static;
+	padding: 50px 50px 100px 50px;
+	margin-top: -238px;
+	margin-left: 1100px;		
+}
+.statut:hover
+{
+    border: 4px Black inset;
+    transform: rotate(-15deg);
+}
+.civil2
+{
+	position: absolute;
+	top: 1100px;
+	left: 1160px;
+	text-decoration: underline;	
+}
+.celib
+{
+	position: absolute;
+	top: 1130px;
+	left: 1150px;
+	font-size: 20px;
+	color: #F5CD29;		
+}
+.section3
+{
+	padding-bottom: 100px;
+}
+.presentation
+{
+	width: 380px;
+	text-align: justify;
+	margin-left: 250px;
+	font-size: 20px;
+	font-family:cursive;
+	margin-top: 100px;
+	border-right: 3px Black solid;
+	padding-right: 100px; 
+}
+.pdp
+{
+	margin-top: -355px;
+	margin-left: 830px;
+}
+.pdp:hover
+{
+	margin-left: 780px;
+}
+.footer-a
+{
+	background-color: #4F4F4F;
+	height: 350px;
+}
+.ucad
+{
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+}
+.esp
+{
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	position: relative;
+	top: 20px;
+	margin-left: 35px;
+}
+.ecole
+{
+	position: relative;
+	top: -100px;
+	margin-left: 155px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.projet
+{
+	position: relative;
+	top: -30px;
+	margin-left: 900px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.ibrahima
+{
+	position: relative;
+	top: -30px;
+	margin-left: 905px;
+	font-size: 30px;
+}
+.border
+{
+	border-top: 1px black solid;
+	margin-top: 170px;
+	width: 80%;
+	margin-left: 120px;
+	margin-bottom: -170px;
+}
+.adresse
+{
+	position: relative;
+	top: 20px;
+	margin-left: 60px;
+	color: white;
+}
+.localisation
+{
+	position: relative;
+	top: -120px;
+	margin-left: 24px;
+}
+.numero
+{
+	position: relative;
+	top: -15px;
+	margin-left: 650px;
+	color: white;
+}
+.phone
+{
+	position: relative;
+	top: -120px;
+	margin-left: 560px;
+}
+.mail
+{
+	position: relative;
+	top: -50px;
+	margin-left: 1150px;
+	color: white;
+}
+.mail-image
+{
+	position: relative;
+	top: -150px;
+	margin-left: 1110px;
+}
+.footer
+{
+	position: relative;
+	top: -230px;
+}
+.footer-final
+{
+	background-color: black;
+	position: relative;
+	top: -250px;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+.sociaux
+{
+	margin-left: 300px;
+
+}
+.fb
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	margin-left: 50px;	
+}
+.fb:hover
+{
+    filter: grayscale(0%);	
+
+}
+.instagram
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	border-radius: 50%;
+	margin-left: 20px; 
+}
+.instagram:hover
+{
+	filter: grayscale(0%);
+}

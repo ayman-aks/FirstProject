@@ -1,0 +1,511 @@
+body
+{
+	margin: 0px ;
+}
+a
+{
+	text-decoration: none;
+}
+.nav
+{
+	background-color: #202020;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	
+}
+.logo
+{
+	position: relative;
+	left: 60px;
+}
+ul
+{
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	top: 35px;
+	left: 350px;
+}
+li
+{
+	margin-left: 40px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+.titre
+{
+	margin-top: -280px;
+	font-size: 30px;
+	margin-left: 580px;
+	color: #F6F6F6;
+	font-family: sans-serif;
+}
+.section2
+{
+	background-color: #E7E7E7;
+	height: 4200px;
+	padding-top: 200px;
+}
+.classe
+{
+	margin-left: 200px;
+	margin-top: 50px;
+	color: #A3FE3D;
+	font-size: 30px;
+	text-decoration: underline;
+
+}
+.remerciement
+{
+	width:600px;
+	margin-left: 140px;
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.AP1
+{
+	margin-top: 100px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP2
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP3
+{
+	margin-top: -190px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+
+.AP4
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP5
+{
+	margin-top: -190px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+
+.AP6
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP7
+{
+	margin-top: -190px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP8
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP9
+{
+	margin-top: -190px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP10
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP11
+{
+	margin-top: -190px;
+	margin-left: 200px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.AP12
+{
+	top: -300px;
+	left: 800px;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.ceremonie
+{
+	margin-left: 200px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	color: #A3FE3D;
+	font-size: 30px;
+	text-decoration: underline;
+
+}
+.rababhajarnizarayman
+{
+	margin-left: 100px;
+    filter: blur(3px);
+}
+.rababhajarnizarayman:hover
+{
+	filter: blur(0);	
+}
+.nadaayman
+{
+	margin-left: 550px;
+	margin-top: -400px;
+	filter: blur(3px);
+}
+.nadaayman:hover
+{
+	filter: blur(0);
+}
+.hajarayman
+{
+	margin-left: 1000px;
+	margin-top: -400px;
+	filter: blur(3px);
+}
+.hajarayman:hover
+{
+	filter: blur(0);
+}
+.famille
+{
+	margin-left: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: #A3FE3D;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.mariage
+{
+	margin-left: 100px;
+	transform: rotate(10deg) scale(1.05);
+
+}
+.mariage:hover
+{
+	transform: rotate(0) scale(1);
+}
+.mesfreres
+{
+	margin-left: 550px;
+	margin-top: -400px;
+	transform: rotate(10deg) scale(1.05);
+
+}
+.mesfreres:hover
+{
+	transform: rotate(0) scale(1);
+}
+.ayoubhaitam
+{
+	margin-left: 1000px;
+	margin-top: -400px;	
+	transform: rotate(10deg) scale(1.05);
+
+}
+.ayoubhaitam:hover
+{
+	transform: rotate(0) scale(1);
+}
+footer
+{
+	background-color: #4F4F4F;
+	height: 350px;
+}
+.ucad
+{
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+}
+.esp
+{
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	position: relative;
+	top: 20px;
+	margin-left: 35px;
+}
+.ecole
+{
+	position: relative;
+	top: -100px;
+	margin-left: 155px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.projet
+{
+	position: relative;
+	top: -30px;
+	margin-left: 900px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.ibrahima
+{
+	position: relative;
+	top: -30px;
+	margin-left: 905px;
+	font-size: 30px;
+}
+.border
+{
+	border-top: 1px black solid;
+	margin-top: 170px;
+	width: 80%;
+	margin-left: 120px;
+	margin-bottom: -170px;
+}
+.adresse
+{
+	position: relative;
+	top: 20px;
+	margin-left: 60px;
+	color: white;
+}
+.localisation
+{
+	position: relative;
+	top: -120px;
+	margin-left: 24px;
+}
+.numero
+{
+	position: relative;
+	top: -15px;
+	margin-left: 650px;
+	color: white;
+}
+.phone
+{
+	position: relative;
+	top: -120px;
+	margin-left: 560px;
+}
+.mail
+{
+	position: relative;
+	top: -50px;
+	margin-left: 1150px;
+	color: white;
+}
+.mail-image
+{
+	position: relative;
+	top: -150px;
+	margin-left: 1110px;
+}
+.footer
+{
+	position: relative;
+	top: -230px;
+}
+.footer-final
+{
+	background-color: black;
+	position: relative;
+	top: -250px;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+.sociaux
+{
+	margin-left: 300px;
+
+}
+.fb
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	margin-left: 50px;	
+}
+.fb:hover
+{
+    filter: grayscale(0%);	
+
+}
+.instagram
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	border-radius: 50%;
+	margin-left: 20px; 
+}
+.instagram:hover
+{
+	filter: grayscale(0%);
+}
+.footer-a
+{
+	background-color: #4F4F4F;
+	height: 350px;
+}
+.ucad
+{
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+}
+.esp
+{
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	position: relative;
+	top: 20px;
+	margin-left: 35px;
+}
+.ecole
+{
+	position: relative;
+	top: -100px;
+	margin-left: 155px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.projet
+{
+	position: relative;
+	top: -30px;
+	margin-left: 900px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.ibrahima
+{
+	position: relative;
+	top: -30px;
+	margin-left: 905px;
+	font-size: 30px;
+}
+.border
+{
+	border-top: 1px black solid;
+	margin-top: 170px;
+	width: 80%;
+	margin-left: 120px;
+	margin-bottom: -170px;
+}
+.adresse
+{
+	position: relative;
+	top: 20px;
+	margin-left: 60px;
+	color: white;
+}
+.localisation
+{
+	position: relative;
+	top: -120px;
+	margin-left: 24px;
+}
+.numero
+{
+	position: relative;
+	top: -15px;
+	margin-left: 650px;
+	color: white;
+}
+.phone
+{
+	position: relative;
+	top: -120px;
+	margin-left: 560px;
+}
+.mail
+{
+	position: relative;
+	top: -50px;
+	margin-left: 1150px;
+	color: white;
+}
+.mail-image
+{
+	position: relative;
+	top: -150px;
+	margin-left: 1110px;
+}
+.footer
+{
+	position: relative;
+	top: -230px;
+}
+.footer-final
+{
+	background-color: black;
+	position: relative;
+	top: -250px;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+.sociaux
+{
+	margin-left: 300px;
+
+}
+.fb
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	margin-left: 50px;	
+}
+.fb:hover
+{
+    filter: grayscale(0%);	
+
+}
+.instagram
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	border-radius: 50%;
+	margin-left: 20px; 
+}
+.instagram:hover
+{
+	filter: grayscale(0%);
+}

@@ -1,0 +1,427 @@
+body
+{
+	margin: 0px ;
+}
+a
+{
+	text-decoration: none;
+}
+.nav
+{
+	background-color: #202020;
+	display: flex;
+	position: fixed;
+	width: 100%;
+
+	
+}
+.logo
+{
+	position: relative;
+	left: 60px;
+}
+ul
+{
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	top: 35px;
+	left: 350px;
+}
+li
+{
+	margin-left: 40px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+.section1
+{
+	background-image: url('/background-wac.jpg');
+	background-size: 100%;
+	height: 670px;
+	background-repeat: no-repeat;
+}
+.logo-wac
+{
+	margin-top: 100px;
+	margin-left: 600px;
+}
+.Champions
+{
+	color: white;
+	font-size: 40px;
+	margin-left: 480px;
+	margin-top: -30px;
+}
+.page-une-central
+{
+	margin-left: 200px;
+	margin-top: -30px;
+}
+.section2
+{
+	background-color: black;
+	height: 50px;
+}
+.sociaux-wac
+{
+	display: flex;
+	list-style-type: none;
+    position: static;
+    margin-top: -20px;
+    margin-left: 450px;
+
+}
+.wac-history
+{
+	width: 1350px;
+}
+.section3
+{
+	background-color: #E8E8E8;
+}
+.histoire
+{
+	margin-left: 600px;
+	font-size: 30px;
+	text-decoration: underline;
+	color: red;
+	margin-top: -20px;
+}
+.wydad_en_1940
+{
+	margin-left: 200px;
+	margin-top: 100px;
+}
+.titre-wydad_en_1940
+{
+	margin-left: 250px;
+	font-weight: bold;
+}
+.texte-wydad_en_1940
+{
+	width: 300px;
+	margin-left: 200px;
+	text-align: justify;
+	color: #B3B3B3;
+}
+.paragraphe-wydad_en_1940
+{
+	margin-left: 650px;
+	margin-top: -300px;
+	width: 600px;
+}
+.resistance
+{
+	text-decoration: underline;
+	font-size: 30px;
+}
+.origine
+{
+	font-size: 20px;
+	text-align: justify;
+}
+.paragraphe-Le_Wydad_en_1942
+{
+	margin-left: 200px;
+	margin-top: 200px;
+	width: 600px;
+}
+.Club
+{
+	text-decoration: underline;
+	font-size: 30px;
+}
+.Tout
+{
+	font-size: 20px;
+	text-align: justify;	
+}
+.Equipe_du_Wydad_1942
+{
+	margin-left: 950px;
+	margin-top: -450px;
+}
+.Le_Wydad_en_1942
+{
+	margin-left: 1000px;
+	margin-top: -300px;
+	font-weight: bold;
+}
+.Debout
+{
+	width: 300px;
+	margin-left: 950px;
+	color: #B3B3B3
+}
+.pere-jego
+{
+	margin-left: 200px;
+	margin-top: 400px;
+}
+.paragraphe-pere-jego
+{
+	margin-left: 650px;
+	margin-top: -350px;
+	width: 600px;
+}
+.Premiers
+{
+	text-decoration: underline;
+	font-size: 30px;	
+}
+.membres
+{
+	font-size: 20px;
+	text-align: justify;	
+}
+.film-wydad-oumkaltoum
+{
+	margin-left: 1000px;
+	margin-top: -300px;
+}
+.section4
+{
+	background-color: #E8E8E8;
+	margin-top: -30px;
+}
+.palmares
+{
+	margin-left: 600px;
+	font-size: 30px;
+	text-decoration: underline;
+	color: red;
+	padding-top: 50px;
+
+}
+.observateurs
+{
+	width: 800px;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-top: 60px;
+	margin-left: 300px;
+	text-align: justify;
+}
+.liste-coupe
+{
+	margin-left: 150px;
+	position: static;
+}
+.a2
+{
+	color: black;
+	margin-left: 90px;
+	font-size: 20px;
+}
+.a20
+{
+	color: black;
+	margin-left: 90px;
+	font-size: 20px;
+}
+.a9
+{
+	color: black;
+	margin-left: 100px;
+	font-size: 20px;
+}
+.a1
+{
+	color: black;
+	margin-left: 100px;
+	font-size: 20px;
+}
+.CAF
+{
+	color: black;
+	margin-top: 20px;
+	margin-left: -10px;
+	font-size: 20px;
+}
+.trone
+{
+	color: black;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+.botola
+{
+	color: black;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.super
+{
+	color: black;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+.autre-coupe
+{
+	margin-left: 200px;
+	margin-top: 100px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 700px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+.section5
+{
+	background-color: #310003;
+	height: 300px;
+}
+.logo-wac-footer-2019
+{
+	margin-left: 600px;
+	margin-top: 20px;
+}
+.Porter
+{
+	margin-left: 520px;
+	color: white;
+}
+.mouiller
+{
+	margin-left: 580px;
+	color: white;
+}
+.footer-a
+{
+	background-color: #4F4F4F;
+	height: 350px;
+}
+.ucad
+{
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+}
+.esp
+{
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	position: relative;
+	top: 20px;
+	margin-left: 35px;
+}
+.ecole
+{
+	position: relative;
+	top: -100px;
+	margin-left: 155px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.projet
+{
+	position: relative;
+	top: -30px;
+	margin-left: 900px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.ibrahima
+{
+	position: relative;
+	top: -30px;
+	margin-left: 905px;
+	font-size: 30px;
+}
+.border
+{
+	border-top: 1px black solid;
+	margin-top: 170px;
+	width: 80%;
+	margin-left: 120px;
+	margin-bottom: -170px;
+}
+.adresse
+{
+	position: relative;
+	top: 20px;
+	margin-left: 60px;
+	color: white;
+}
+.localisation
+{
+	position: relative;
+	top: -120px;
+	margin-left: 24px;
+}
+.numero
+{
+	position: relative;
+	top: -15px;
+	margin-left: 650px;
+	color: white;
+}
+.phone
+{
+	position: relative;
+	top: -120px;
+	margin-left: 560px;
+}
+.mail
+{
+	position: relative;
+	top: -50px;
+	margin-left: 1150px;
+	color: white;
+}
+.mail-image
+{
+	position: relative;
+	top: -150px;
+	margin-left: 1110px;
+}
+.footer
+{
+	position: relative;
+	top: -230px;
+}
+.footer-final
+{
+	background-color: black;
+	position: relative;
+	top: -250px;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+.sociaux
+{
+	margin-left: 300px;
+
+}
+.fb
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	margin-left: 50px;	
+}
+.fb:hover
+{
+    filter: grayscale(0%);	
+
+}
+.instagram
+{
+	position: relative;
+	top: -65px;
+	filter: grayscale(100%);
+	border-radius: 50%;
+	margin-left: 20px; 
+}
+.instagram:hover
+{
+	filter: grayscale(0%);
+}

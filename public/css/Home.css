@@ -1,0 +1,62 @@
+body
+{
+	background-image: url('/arriere.gif');
+	background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.Bienvenue
+{
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	border: 3px black solid;
+	border-radius: 60px;
+	padding: 30px 20px 30px 20px;
+	background-color: #75FFC7;
+}
+.Bienvenue:hover
+{
+	background: none;
+}
+.fr
+{
+	margin-right: 20px;
+	font-size: 40px;
+}
+.fr:hover
+{
+	color: #75FFC7;
+	border-bottom: 3px #75FFC7 solid;
+	animation: 1s linear infinite;
+	transition: 0.1s;
+}
+.en
+{
+	margin-right: 20px;
+    font-size: 40px;
+}
+.en:hover
+{
+	color: #75FFC7;
+	border-bottom: 3px #75FFC7 solid;
+	animation: 1s linear infinite;
+	transition: 0.1s;	
+}
+.es
+{
+	font-size: 40px;
+	
+}
+.es:hover
+{
+	color: #75FFC7;
+	border-bottom: 3px #75FFC7 solid;
+	animation: 1s linear infinite;
+	transition: 0.1s;
+}
+a
+{
+	text-decoration: none;
+}
